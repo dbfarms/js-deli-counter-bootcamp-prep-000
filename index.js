@@ -19,12 +19,11 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeli) {
   var otherDeli = [];
-  var n = 0;
   var line = {};
   if (katzDeli.length === 0) {
     return "The line is currently empty.";
   } else {
-    for (n = 0; n < katzDeli.length; n++) {
+    for (var n = 0; n < katzDeli.length; n++) {
       line.n = katzDeli.splice(n);
     }
   }
