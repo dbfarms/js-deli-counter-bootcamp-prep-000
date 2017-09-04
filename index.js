@@ -1,6 +1,8 @@
 var katzDeli = [];
 
-function takeANumber(otherDeli, person) {
-  otherDeli.push(person);
-  return (`Welcome, ${person}. You are number ${otherDeli.length} in line.`)
+function takeANumber(katzDeli, person) {
+  katzDeli.push(person);
+  return (`Welcome, ${person}. You are number ${katzDeli.length} in line.`)
 }
+
+function nowServing()
