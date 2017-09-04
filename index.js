@@ -25,7 +25,7 @@ function currentLine(katzDeli) {
     return "The line is currently empty.";
   } else {
     for (n = 0; n < katzDeli.length; n++) {
-      line[n] = [katzDeli.n]
+      line.n = [katzDeli.n]
     }
   }
   return "The line is currently: " + line;
