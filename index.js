@@ -11,7 +11,7 @@ function nowServing(katzDeli) {
   } else {
     var name = katzDeli[0];
     katzDeli.splice(0,1);
-    return `Currently serving ${katzDeli[0]}.`
+    return 'Currently serving' + name = '.';
 
   }
 
