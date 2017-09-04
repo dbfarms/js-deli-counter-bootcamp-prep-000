@@ -23,7 +23,7 @@ function currentLine(katzDeli) {
   if (katzDeli.length === 0) {
     return "The line is currently empty.";
   } else {
-    for (otherDeli < katzDeli.length) {
+    for (otherDeli = 0; otherDeli < katzDeli.length; otherDeli++) {
       line += katzDeli.splice(otherDeli);
       return "The line is currently: " + line;
     }
