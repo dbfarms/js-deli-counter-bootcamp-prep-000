@@ -25,8 +25,7 @@ function currentLine(katzDeli) {
     return "The line is currently empty.";
   } else {
     for (n = 0; n < katzDeli.length; n++) {
-      otherDeli = katzDeli.slice(n)
-      line.n = katzDeli.slice(n)
+      line.n = katzDeli.splice(n);
     }
   }
   return "The line is currently: " + line;
