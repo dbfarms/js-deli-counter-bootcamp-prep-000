@@ -5,4 +5,6 @@ function takeANumber(katzDeli, person) {
   return (`Welcome, ${person}. You are number ${katzDeli.length} in line.`)
 }
 
-function nowServing()
+function nowServing() {
+
+}
