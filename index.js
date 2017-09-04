@@ -12,5 +12,5 @@ function nowServing(katzDeli) {
     return `Currently serving ${katzDeli[0]}.`
     katzDeli.splice(0,1)
   }
-  
+
 }
